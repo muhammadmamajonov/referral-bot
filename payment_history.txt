@@ -1,0 +1,19 @@
+Pul o'tkazma: Click Kartaga
+        Kimga: Muhammad Mamajonov
+        Miqdori: 0
+        Telefon: None
+        Karta: 86001248751
+        Sana: 2022-5-31 16:35
+        
+        ---------------------------------------
+
+        Pul o'tkazma: Click Kartaga
+        Kimga: Muhammad Mamajonov
+        Miqdori: 200
+        Telefon: None
+        Karta: 86001248751
+        Sana: 2022-6-1 12:21
+        
+        ---------------------------------------
+
+        
