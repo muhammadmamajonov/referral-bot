@@ -7,7 +7,7 @@ from loader import dp, db
 @dp.message_handler(text="👥 Do'stlarni taklif qilish")
 async def invate_friends(message: types.Message):
     text = f"""
-    📎 Ushbu referal linkini do'stlaringizga yuboring 👉 https://t.me/pdp_aloqa_bot?start={message.from_user.id}
+    📎 Ushbu referal linkini do'stlaringizga yuboring 👉 https://t.me/referral_bot?start={message.from_user.id}
 
 🤖 Botdan har bir ro'yxatdan o'tgan do'stingiz uchun sizga {db.get_price_for_invited()} so'm to'lanadi
 
@@ -24,7 +24,7 @@ async def task_performance(message: types.Message):
 @dp.message_handler(text="👥 Invite friends")
 async def invate_friends_en(message: types.Message):
     text = f"""
-    📎 Send this referral link to your friends 👉 https://t.me/pdp_aloqa_bot?start={message.from_user.id}
+    📎 Send this referral link to your friends 👉 https://t.me/referral_bot?start={message.from_user.id}
 
 🤖 You will be charged {db.get_price_for_invited()} sums for each registered friend of the bot
 
@@ -42,7 +42,7 @@ async def task_performance(message: types.Message):
 async def invate_friends_ru(message: types.Message):
   
     text = f"""
-    📎 Отправьте эту реферальную ссылку своим друзьям 👉 https://t.me/pdp_aloqa_bot?start={message.from_user.id}
+    📎 Отправьте эту реферальную ссылку своим друзьям 👉 https://t.me/referral_bot?start={message.from_user.id}
 
 🤖 За каждого зарегистрированного друга бота с вас будет начисляться {db.get_price_for_invited()} сумов
 
